@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Spring Framework">
+		<topic name="Spring Core">
+			<sub-topic>Spring Dependency Injection (DI)</sub-topic>
+			<sub-topic>Spring DI via setter method</sub-topic>
+			<sub-topic>Dependency injection a bean via setter method.</sub-topic>
+			<sub-topic>Spring DI via constructor</sub-topic>
+			<sub-topic>Dependency injection a bean via constructor.</sub-topic>
+			<sub-topic>Constructor injection type ambiguities in Spring
+			</sub-topic>
+			<sub-topic>Bean Basic</sub-topic>
+			<sub-topic>Spring bean reference example</sub-topic>
+			<sub-topic>Inject value into bean properties in Spring</sub-topic>
+			<sub-topic>Three ways to inject value into bean properties.
+			</sub-topic>
+			<sub-topic>Load multiple Spring bean configuration file</sub-topic>
+			<sub-topic>Spring inner bean examples</sub-topic>
+			<sub-topic>Spring bean scopes examples</sub-topic>
+			<sub-topic>Spring Collections (List, Set, Map, and Properties)
+				example</sub-topic>
+			<sub-topic>Example to inject values into collections type (List, Set,
+				Map, and Properties).</sub-topic>
+			<sub-topic>Spring inject Date into bean property : CustomDateEditor
+			</sub-topic>
+			<sub-topic>Spring PropertyPlaceholderConfigurer example</sub-topic>
+			<sub-topic>Spring bean configuration inheritance</sub-topic>
+			<sub-topic>Spring dependency checking</sub-topic>
+			<sub-topic>Spring dependency checking with @Required Annotation
+			</sub-topic>
+			<sub-topic>Bean InitializingBean and DisposableBean example
+			</sub-topic>
+			<sub-topic>Bean init-method and destroy-method example</sub-topic>
+			<sub-topic>Bean @PostConstruct and @PreDestroy example</sub-topic>
+			<sub-topic>Spring Auto scanning components</sub-topic>
+			<sub-topic>Spring AutoWiring Bean</sub-topic>
+		</topic>
+		<topic name="Spring AOP">
+			<sub-topic>Spring AOP Example : Advice</sub-topic>
+			<sub-topic>Spring AOP Example : Pointcut , Advisor</sub-topic>
+		</topic>
+		<topic name="Spring JDBC">
+			<sub-topic>Spring JDBC Support</sub-topic>
+			<sub-topic>Spring + JDBC example</sub-topic>
+			<sub-topic>JdbcTemplate + JdbcDaoSupport example</sub-topic>
+			<sub-topic>JdbcTemplate Querying examples</sub-topic>
+			<sub-topic>JdbcTemplate batchUpdate() example</sub-topic>
+			<sub-topic>SimpleJdbcTemplate Querying examples</sub-topic>
+			<sub-topic>SimpleJdbcTemplate batchUpdate() example</sub-topic>
+			<sub-topic>Named Parameters examples in SimpleJdbcTemplate
+			</sub-topic>
+		</topic>
+		<topic name="Spring ORM">
+			<sub-topic>Spring Hibernate Support</sub-topic>
+			<sub-topic>HibernateTemplate</sub-topic>
+		</topic>
+		<topic name="Spring Email">
+			<sub-topic>Spring E-mail Support</sub-topic>
+			<sub-topic>Sending E-mail via MailSender</sub-topic>
+			<sub-topic>Sending e-mail with attachment</sub-topic>
+		</topic>
+		<topic name="Spring MVC">
+			<sub-topic>@Controller</sub-topic>
+			<sub-topic>@Service</sub-topic>
+			<sub-topic>@Repository</sub-topic>
+			<sub-topic>@RequestMapping</sub-topic>
+		</topic>
+		<topic name="Spring integrates with other web frameworks">
+			<sub-topic>Struts 2 + Spring integration demo</sub-topic>
+			<sub-topic>JSF 2.0 + Spring integration demo</sub-topic>
+			<sub-topic>JSF 2.0 + Spring + Hibernate integration demo</sub-topic>
+		</topic>
+	</course>
+</courses>

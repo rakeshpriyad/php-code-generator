@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="css"/>
+	<classpathentry kind="src" path="js"/>
+	<classpathentry kind="src" path="images"/>
+	<classpathentry kind="src" path="header"/>
+	<classpathentry kind="src" path="footer"/>
+	<classpathentry kind="src" path="menu"/>
+	<classpathentry kind="src" path="android"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7-dep.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

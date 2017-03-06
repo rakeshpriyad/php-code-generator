@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Microsoft Dot Net">
+		<topic name="Introduction">
+			<sub-topic>Common Language Runtime (CLR)</sub-topic>
+		</topic>
+		<topic name="C#
+			the language">
+			<sub-topic>Syntax and datatypes in C#</sub-topic>
+			<sub-topic>Conditional operators and looping
+			</sub-topic>
+			<sub-topic>Array</sub-topic>
+			<sub-topic>Structure</sub-topic>
+		</topic>
+		<topic name="OOPS Concepts">
+			<sub-topic>Classes</sub-topic>
+			<sub-topic>Properties and methods</sub-topic>
+			<sub-topic>Class access modifiers</sub-topic>
+			<sub-topic>Defining Constructor</sub-topic>
+			<sub-topic>Method overloading, overriding
+				and hiding
+			</sub-topic>
+			<sub-topic>Overloading of constructor</sub-topic>
+			<sub-topic>Inheritance</sub-topic>
+			<sub-topic>Interface polymorphism</sub-topic>
+			<sub-topic>Working with namespaces</sub-topic>
+			<sub-topic>Partial classes</sub-topic>
+			<sub-topic>Collections</sub-topic>
+			<sub-topic>Array list</sub-topic>
+			<sub-topic>Stack</sub-topic>
+			<sub-topic>Queue</sub-topic>
+			<sub-topic>Hash table</sub-topic>
+			<sub-topic>Generics Collection</sub-topic>
+			<sub-topic>List</sub-topic>
+			<sub-topic>Dictionary</sub-topic>
+			<sub-topic>Exception handling</sub-topic>
+			<sub-topic>Definition of errors, bugs and
+				exceptions
+			</sub-topic>
+			<sub-topic>Try and catch</sub-topic>
+			<sub-topic>Finally block</sub-topic>
+			<sub-topic>Throwing exceptions</sub-topic>
+			<sub-topic>Handling multiple exceptions</sub-topic>
+			<sub-topic>Basics of windows application
+				development
+			</sub-topic>
+			<sub-topic>Forms and controls</sub-topic>
+			<sub-topic>Introduction</sub-topic>
+		</topic>
+		<topic name="ADO
+			.Net">
+			<sub-topic>Working with dataset</sub-topic>
+			<sub-topic>Working with command and
+				connections
+			</sub-topic>
+			<sub-topic>Working with data reader</sub-topic>
+			<sub-topic>Working with data view</sub-topic>
+		</topic>
+		<topic name="ASP
+			.NET">
+			<sub-topic>Introduction of ASP.NET</sub-topic>
+			<sub-topic>Web page life cycle</sub-topic>
+			<sub-topic>Introduction of IIS</sub-topic>
+			<sub-topic>Request object</sub-topic>
+			<sub-topic>Response object</sub-topic>
+			<sub-topic>Server object</sub-topic>
+			<sub-topic>State management</sub-topic>
+			<sub-topic>Http Cookies</sub-topic>
+			<sub-topic>Session object</sub-topic>
+			<sub-topic>Application object</sub-topic>
+			<sub-topic>Query string</sub-topic>
+			<sub-topic>View state</sub-topic>
+			<sub-topic>Standard html controls</sub-topic>
+			<sub-topic>Validation controls</sub-topic>
+			<sub-topic>Data bind controls</sub-topic>
+			<sub-topic>Repeater control</sub-topic>
+			<sub-topic>Data list control</sub-topic>
+			<sub-topic>Grid View control</sub-topic>
+			<sub-topic>Form View control</sub-topic>
+			<sub-topic>Data View control</sub-topic>
+			<sub-topic>Navigation controls</sub-topic>
+			<sub-topic>Caching</sub-topic>
+			<sub-topic>Master pages</sub-topic>
+			<sub-topic>Asp.net security</sub-topic>
+		</topic>
+		<topic name="Packaging
+			Deployment of websites">
+		</topic>
+		<topic name="Globalization
+			and localization">
+		</topic>
+	</course>
+</courses>

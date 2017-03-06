@@ -1,0 +1,22 @@
+.bold-row{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.table { display: table; }
+.row { display: table-row; }
+.cell { display: table-cell; }
+.panel-default { cursor: pointer;}
+.panel{
+	margin-bottom: 0px;
+}
+.modal-dialog {
+    overflow-y:auto;
+    max-height:90%;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+	background-color: #dff0d8;
+	border-color:#dff0d8;
+	color: #3c763d;
+}

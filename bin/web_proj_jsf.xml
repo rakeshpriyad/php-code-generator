@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Web Project with JSF(Java Server Faces) framework">
+		<topic name="Introduction to java">
+			<sub-topic>
+				Features of Java
+			</sub-topic>
+		</topic>
+		<topic name="An overview of elementary programming">
+			<sub-topic>Variables , Data Types and Arrays</sub-topic>
+			<sub-topic>Operators</sub-topic>
+			<sub-topic>Control statements</sub-topic>
+			<sub-topic>Understanding of Access Controls ( private, pubic and
+				protected)
+			</sub-topic>
+		</topic>
+		<topic name="OOPS implementation">
+			<sub-topic>Abstractions</sub-topic>
+			<sub-topic>The Three OOP Principles:(Encapsulation, Inheritance,
+				Polymorphism)
+			</sub-topic>
+			<sub-topic>Class fundamentals and Declaration of objects
+			</sub-topic>
+			<sub-topic>Overloading and Overriding of Methods</sub-topic>
+			<sub-topic>Up casting and Down casting</sub-topic>
+			<sub-topic>Using Abstract classes</sub-topic>
+			<sub-topic>Using final to prevent Overriding And Inheritance
+			</sub-topic>
+			<sub-topic>Static Keyword</sub-topic>
+			<sub-topic>Nested and Inner classes</sub-topic>
+		</topic>
+		<topic name="Packages and interfaces">
+			<sub-topic>Defining a package and understanding CLASSPATH
+			</sub-topic>
+			<sub-topic>Importing packages</sub-topic>
+			<sub-topic>Defining and Implementing interfaces</sub-topic>
+			<sub-topic>Abstract classes Vs Interfaces</sub-topic>
+		</topic>
+		<topic name="Exception handing">
+			<sub-topic>Fundamental of Exception handing</sub-topic>
+			<sub-topic>Try and Catch</sub-topic>
+			<sub-topic>Multiple catch Blocks and Multi catch block
+			</sub-topic>
+			<sub-topic>Finally Block</sub-topic>
+			<sub-topic>Try-with-Resources</sub-topic>
+			<sub-topic>Closing Multiple Resources</sub-topic>
+			<sub-topic>Types of Exceptions</sub-topic>
+			<sub-topic>Throw and throws</sub-topic>
+			<sub-topic>Creating custom exceptions</sub-topic>
+		</topic>
+		<topic name="String handing">
+			<sub-topic>Learning String Operation</sub-topic>
+			<sub-topic>Learning Character Extraction</sub-topic>
+			<sub-topic>Learning String Comparison</sub-topic>
+			<sub-topic>Understanding StringBuffer and String Builder
+				Classes
+			</sub-topic>
+			<sub-topic>Creating Immutable Class</sub-topic>
+		</topic>
+		<topic name="Collection framework">
+			<sub-topic>Introduction to Computers, Programs,</sub-topic>
+			<sub-topic>The Collection Interfaces (list , set, Sorted set)
+			</sub-topic>
+			<sub-topic>The collection classes</sub-topic>
+			<sub-topic>(The array list, Linked list, Hash set, Tree set)
+			</sub-topic>
+			<sub-topic>Accessing a Collection via an Iterator</sub-topic>
+			<sub-topic>Working with maps</sub-topic>
+			<sub-topic>Working with Comparators</sub-topic>
+			<sub-topic>The Collection Algorithms</sub-topic>
+			<sub-topic>The Legacy Classes and Interfaces</sub-topic>
+			<sub-topic>(Enumeration, Vector, Stack, Dictionary, Hash
+				table)
+			</sub-topic>
+			<sub-topic>Date and Time Handling</sub-topic>
+			<sub-topic>COLLECTION CLASS</sub-topic>
+			<sub-topic>Array class</sub-topic>
+		</topic>
+		<topic name="DATABASE PROGRAMMING USING JDBC(4.1)">
+			<sub-topic>JDBC Drivers</sub-topic>
+			<sub-topic>Statements</sub-topic>
+			<sub-topic>Metadata</sub-topic>
+			<sub-topic>Scrollable And Updatable Result set</sub-topic>
+			<sub-topic>Batch Updates</sub-topic>
+			<sub-topic>Data Sources And Connecting Pooling</sub-topic>
+			<sub-topic>Row sets</sub-topic>
+			<sub-topic>Transaction (commit , rollback, savepoint)
+			</sub-topic>
+		</topic>
+		<topic name="Introduction to SERVLET">
+		</topic>
+		<topic name="Introduction to JAVA SERVER PAGES (JSP)">
+		</topic>
+		<topic name=" Framework JSF">
+			<sub-topic>JSF Introduction</sub-topic>
+			<sub-topic>JSF Life cycle</sub-topic>
+			<sub-topic>Creating JSF Application.</sub-topic>
+			<sub-topic>Scope Supported by JSF</sub-topic>
+			<sub-topic>Implicit variable supported by JSF</sub-topic>
+			<sub-topic>Implementation of Standard JSF Component
+			</sub-topic>
+			<sub-topic>Validator</sub-topic>
+			<sub-topic>Converter</sub-topic>
+			<sub-topic>Internationalization</sub-topic>
+			<sub-topic>Listener( Value change Listener and Phase
+				Listener)
+			</sub-topic>
+			<sub-topic>Introduction to Richfaces</sub-topic>
+		</topic>
+	</course>
+</courses>

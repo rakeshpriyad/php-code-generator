@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4><i class="fa fa-fw fa-check"></i>Learn ${courseName}</h4>
+    </div>
+    <div class="panel-body">
+        <p>
+		We provide Java training with industry experienced training professionals. In our java training program, you will learn Java programming, java Language, Basic Java programming, OOPS in Java, Java Classes, Exception Handling, Packages, Swing etc. Classes for Java is conducted only in weekends (Saturday and Sunday).
+		</p>
+        <a href="<?php print "http://".$_SERVER['SERVER_NAME']."/intellizone/"; ?>${courseName}/learn_more_${courseName}_course.php" class="btn btn-default">Learn More</a>
+    </div>
+</div>

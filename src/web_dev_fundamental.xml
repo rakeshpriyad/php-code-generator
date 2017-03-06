@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Web development fundamental">
+		<topic name="Introduction of world wide web">
+			<sub-topic>
+				Features of Java
+			</sub-topic>
+		</topic>
+		<topic name="How website works">
+		</topic>
+		<topic name="What is the need of web application">
+		</topic>
+		<topic name="What is http and https protocols">
+		</topic>
+		<topic name="Difference between static and dynamic web page">
+		</topic>
+		<topic name="Life cycle of a web page">
+		</topic>
+		<topic name="Introduction of web servers and how they work">
+		</topic>
+		<topic name="Basic html">
+		</topic>
+		<topic name="Other html elements">
+		</topic>
+		<topic name="HTML form and their basic elements">
+		</topic>
+		<topic name="Request methods GET and POST">
+		</topic>
+		<topic name="Java Script">
+		</topic>
+		<topic name="DHTML (Dynamic HTML)">
+		</topic>
+		<topic name="Virtual directories">
+		</topic>
+		<topic name="Creating sample html page">
+		</topic>
+		<topic name="Hosting a web page">
+		</topic>
+	</course>
+</courses>

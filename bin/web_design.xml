@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Web designing">
+		<topic name="Photoshop">
+			<sub-topic>Introduction of Photoshop</sub-topic>
+			<sub-topic>Layout and drawing</sub-topic>
+			<sub-topic>Various selections and editing style</sub-topic>
+			<sub-topic>Typography in Photoshop</sub-topic>
+			<sub-topic>Brushes</sub-topic>
+			<sub-topic>Layers</sub-topic>
+			<sub-topic>Positioning, ordering, scaling, rotation and adjustment
+			</sub-topic>
+			<sub-topic>Masking, gradient effect</sub-topic>
+			<sub-topic>Image slicing</sub-topic>
+			<sub-topic>Giving special effect to image</sub-topic>
+			<sub-topic>Generating jpeg and other type of images</sub-topic>
+			<sub-topic>Generating web compressed image</sub-topic>
+		</topic>
+		<topic name="Advanced HTML">
+			<sub-topic>HTML head element</sub-topic>
+			<sub-topic>Text oriented elements (including font, para, new line,
+				background etc.)
+			</sub-topic>
+			<sub-topic>Hyper link and URLs</sub-topic>
+			<sub-topic>Image tag</sub-topic>
+			<sub-topic>HTML Tables</sub-topic>
+			<sub-topic>CSS</sub-topic>
+			<sub-topic>Java Script</sub-topic>
+			<sub-topic>Java Script alert and other basic functions</sub-topic>
+			<sub-topic>Custom functions and validation in Java Script</sub-topic>
+			<sub-topic>Posting a web form with simple java script validation
+			</sub-topic>
+			<sub-topic>DHTML</sub-topic>
+			<sub-topic>HTML5 Basics</sub-topic>
+			<sub-topic>AJAX basics</sub-topic>
+
+		</topic>
+	</course>
+</courses>

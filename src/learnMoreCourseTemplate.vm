@@ -1,0 +1,74 @@
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/header/header.php"); ?>
+<div class="container">
+ <?php include '${courseName}_panel.php';?>
+
+	<div class="alert alert-info" data-target="#collapse${courseName}">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<a href="#collapse${courseName}" data-toggle="collapse"><b>
+			#if (${courseName} == "dotnet").Net #elseif (${courseName} == "java") Core Java	And Advance #else Web Design#end
+		</b></a>
+		<div id="collapse${courseName}" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/#if (${courseName} == "dotnet")${courseName} #elseif (${courseName} == "java")${courseName}#elseWebDesign#end/${courseName}.php"); ?>
+			</div>
+		</div>
+	</div>
+	
+	#if (${courseName} == "dotnet")
+	<div class="alert alert-info" data-target="#collapseASP${courseName}">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<a href="#collapseASP${courseName}" data-toggle="collapse"><b>
+			ASP .Net
+		</b></a>
+		<div id="collapseASP${courseName}" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/${courseName}/${courseName}.php"); ?>
+			</div>
+		</div>
+	</div>
+	<div class="alert alert-info" data-target="#collapseASPDotNetMVCCourse">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<a href="#collapseASPDotNetMVCCourse" data-toggle="collapse"><b>ASP.Net MVC</b></a>
+		<div id="collapseASPDotNetMVCCourse" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/dotNet/asp_dotnet.php"); ?>
+			</div>
+		</div>
+	</div>
+	#elseif (${courseName} == "java")
+	<div class="alert alert-info" data-target="#collapseWebJavaCourse">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<a href="#collapseWebJavaCourse" data-toggle="collapse"><b>Web
+				development with Java</b></a>
+		<div id="collapseWebJavaCourse" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/java/web_app_with_java.php"); ?>
+			</div>
+		</div>
+	</div>
+	
+	<div class="alert alert-info" data-target="#collapseSpringCourse">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<a href="#collapseSpringCourse" data-toggle="collapse"><b>Spring
+				Framework</b></a>
+		<div id="collapseSpringCourse" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/spring/spring.php"); ?>
+			</div>
+		</div>
+	</div>
+	<div class="alert alert-info" 
+		data-target="#collapseHibCourse">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<a href="#collapseHibCourse" data-toggle="collapse"><b>Hibernate</b></a>
+		<div id="collapseHibCourse" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/hibernate/hibernate.php"); ?>
+			</div>
+		</div>
+	</div>
+	
+	#end
+	
+</div>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/footer/footer.php"); ?>

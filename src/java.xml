@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Microsoft Dot Net">
+		<topic name="Introduction to Computers,	Programs">
+			<sub-topic>Features of Java</sub-topic>
+			<sub-topic>JAVA on LINUX PLATFORM</sub-topic>
+		</topic>
+		<topic name="Introduction to java	virtual machine">
+			<sub-topic> Method Area</sub-topic>
+			<sub-topic>Heap, Stack, Program Counter Register</sub-topic>
+			<sub-topic>Execution Engine and Native Method Interface</sub-topic>
+			<sub-topic>Cass loading process by classloaders</sub-topic>
+			<sub-topic>Bootstrap class loader</sub-topic>
+			<sub-topic>Extension class loader</sub-topic>
+			<sub-topic>System class loader</sub-topic>
+			<sub-topic>Role of Just In time compiler (JIT)</sub-topic>
+		</topic>
+		<topic name="An overview of elementary	programming">
+			<sub-topic>Variables , Data Types and Arrays</sub-topic>
+			<sub-topic>Operators</sub-topic>
+			<sub-topic>Control statements</sub-topic>
+			<sub-topic>Understanding of AccessControls ( private, pubic and protected)</sub-topic>
+
+		</topic>
+		<topic name="OOPS implementation">
+			<sub-topic>Abstractions</sub-topic>
+			<sub-topic>The Three OOP Principles:(Encapsulation, Inheritance, Polymorphism)</sub-topic>
+			<sub-topic>Class fundamentals and Declaration of objects</sub-topic>
+			<sub-topic>Overloading and Overriding of Methods</sub-topic>
+			<sub-topic>Up casting and Down casting</sub-topic>
+			<sub-topic>Using Abstract classes</sub-topic>
+			<sub-topic>Using final to prevent Overriding And Inheritance</sub-topic>
+			<sub-topic>Static Keyword</sub-topic>
+			<sub-topic>Nested and Inner classes</sub-topic>
+			<sub-topic>Variables , Data Types and Arrays</sub-topic>
+			<sub-topic>Operators</sub-topic>
+			<sub-topic>Control statements</sub-topic>
+			<sub-topic>Understanding of Access Controls ( private, pubic
+				andprotected)</sub-topic>
+
+		</topic>
+		<topic name="Packages and interfaces">
+			<sub-topic>Defining a package and understanding CLASSPATH</sub-topic>
+			<sub-topic>Importing packages</sub-topic>
+			<sub-topic>Defining and Implementing interfaces</sub-topic>
+			<sub-topic>Abstract classes Vs Interfaces</sub-topic>
+		</topic>
+		<topic name="Exception handing">
+			<sub-topic>Fundamental of Exception handing</sub-topic>
+			<sub-topic>Try and Catch</sub-topic>
+			<sub-topic>Multiple catch Blocks and Multi catch block</sub-topic>
+			<sub-topic>Chained Exception</sub-topic>
+			<sub-topic>Finally Block</sub-topic>
+			<sub-topic>Try-with-Resources</sub-topic>
+			<sub-topic>Closing Multiple Resources</sub-topic>
+			<sub-topic>Types of Exceptions</sub-topic>
+			<sub-topic>Throw and throws</sub-topic>
+			<sub-topic>Creating custom exceptions</sub-topic>
+			<sub-topic>Assertion</sub-topic>
+		</topic>
+		<topic name="String handing">
+			<sub-topic>Learning String Operation</sub-topic>
+			<sub-topic>Learning Character Extraction</sub-topic>
+			<sub-topic>Learning String Comparison</sub-topic>
+			<sub-topic>Understanding StringBuffer andString Builder Classes</sub-topic>
+		</topic>
+		<topic name="Creating Immutable Classs">
+		</topic>
+		<topic name="New in jdk">
+			<sub-topic>Generics</sub-topic>
+			<sub-topic>Annotations</sub-topic>
+			<sub-topic>Vargs</sub-topic>
+			<sub-topic>Static Import</sub-topic>
+			<sub-topic>For each</sub-topic>
+			<sub-topic>String in switch</sub-topic>
+			<sub-topic>Multiple exception handing</sub-topic>
+			<sub-topic>Dimond Operator</sub-topic>
+		</topic>
+		<topic name="Multi-threaded programming">
+			<sub-topic>The java thread model</sub-topic>
+			<sub-topic>Creating a thread: Extended Thread and</sub-topic>
+			<sub-topic>Implementing Runable</sub-topic>
+			<sub-topic>Creating multiple Thread andContext</sub-topic>
+			<sub-topic>Switching</sub-topic>
+			<sub-topic>Synchronization: methods and statements</sub-topic>
+		</topic>
+		<topic name="Collection framework and	Generics">
+			<sub-topic>Introduction to Computers, Programs,</sub-topic>
+			<sub-topic>The Collection Interfaces (list , set, Sorted set)</sub-topic>
+			<sub-topic>The collection classes</sub-topic>
+			<sub-topic>(The array list, Linked list,Hash set, Tree set)</sub-topic>
+			<sub-topic>Accessing a Collection via an Iterator</sub-topic>
+			<sub-topic>Working with maps</sub-topic>
+			<sub-topic>Working with Comparators</sub-topic>
+			<sub-topic>The Collection Algorithms</sub-topic>
+			<sub-topic>The Legacy Classes and Interfaces</sub-topic>
+			<sub-topic>(Enumeration, Vector, Stack, Dictionary, Hash table)</sub-topic>
+			<sub-topic>Date and Time Handling</sub-topic>
+			<sub-topic>COLLECTION CLASS</sub-topic>
+			<sub-topic>Array class</sub-topic>
+		</topic>
+		<topic name="Introduction to IO Streams">
+			<sub-topic>Create and write the string into text file</sub-topic>
+			<sub-topic>Read text file</sub-topic>
+		</topic>
+		<topic name="Introduction to Reflection	API">
+		</topic>
+		<topic name="Introduction to Swing and	AWT.">
+		</topic>
+	</course>
+</courses>

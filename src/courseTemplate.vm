@@ -1,0 +1,20 @@
+#foreach( $topic in $topicMap.keySet() )
+ 
+#set ($topicId= $topic.replace(" ", "").replace(".", "dot").replace("#", "Sharp").replace(")","").replace("(",""))
+#set ($collapseId= "collapse${topicId}")
+<div class="panel panel-default" data-toggle="collapse" data-target="#${collapseId}">
+	<h4 class="panel-title list-group-item list-group-item-info active">
+	  <a  href="#${collapseId}"><b>$topic.trim()</b></a>
+	</h4>
+  <div id="${collapseId}" class="panel-collapse collapse">
+	<div class="panel-body">
+	<ul class="list-group">
+		#foreach( $subTopic in $topicMap.get($topic))
+			<li class="list-group-item list-group-item">$subTopic.trim()</li>
+		#end
+	</ul>
+	</div>
+  </div>
+</div>
+#end
+

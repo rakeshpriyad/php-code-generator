@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="ASP .NET MVC">
+		<topic name="Introduction of asp.net MVC">
+			<sub-topic>How MVC different from ASP.NET web forms</sub-topic>
+			<sub-topic>Model, View and Controller in ASP.net MVC</sub-topic>
+		</topic>
+		<topic name="Understanding of Routes and urls">
+		</topic>
+		<topic name="Controllers">
+			<sub-topic>Action methods</sub-topic>
+		</topic>
+		<topic name="Views">
+			<sub-topic>Specifying a view</sub-topic>
+			<sub-topic>Strongly typed views</sub-topic>
+			<sub-topic>Using HTML helpers</sub-topic>
+			<sub-topic>Extension methods</sub-topic>
+			<sub-topic>Data annotations and validations</sub-topic>
+			<sub-topic>Data binding</sub-topic>
+			<sub-topic>Razor view engine</sub-topic>
+			<sub-topic>Razor syntax</sub-topic>
+		</topic>
+		<topic name="Models">
+			<sub-topic>ASP.net Ajax helper</sub-topic>
+		</topic>
+		<topic name="Security">
+			<sub-topic>Authentication and authorization</sub-topic>
+			<sub-topic>Cross site scripting (XSS)</sub-topic>
+			<sub-topic>Cross site request forgery (XSRF)</sub-topic>
+		</topic>
+		<topic name="IOC and DI (Dependency Injection)">
+			<sub-topic>Unit Testing</sub-topic>
+		</topic>
+		<topic name="Introduction to ASP.NET Web API">
+			<sub-topic>Creating a basic REST service</sub-topic>
+			<sub-topic>Accessing REST service through MVC</sub-topic>
+		</topic>
+		<topic name="Hosting ASP.NET MVC application">
+			<sub-topic>Hosting through XCopy</sub-topic>
+			<sub-topic>Stand-alone Project with Java</sub-topic>
+			<sub-topic>Web Project with Java</sub-topic>
+			<sub-topic>Web Project with JSF Framework</sub-topic>
+			<sub-topic>Hosting direct to IIS</sub-topic>
+		</topic>
+	</course>
+</courses>

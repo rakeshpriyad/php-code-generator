@@ -1,0 +1,53 @@
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/header/header.php"); ?>
+<div class="container">
+&nbsp;
+</div>
+<div class="container">
+	<div class="table ">
+		<div class="row">
+			<div class="col-md-4 table-bordered">
+				Course Duration
+			</div>
+			<div class="col-md-8 table-bordered">
+				15 weeks
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 table-bordered">
+				Type
+			</div>
+			<div class="col-md-8 table-bordered">
+				Weekend classes (Sat and Sun only)
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 table-bordered">
+				Course material
+			</div>
+			<div class="col-md-8 table-bordered">
+				Includes handbook, CD includes learning materials*.
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+<button type="button" class="btn btn-success" onclick="printContent('coreJava')">Print Course Content</button>
+</div>
+<div class="container" id="coreJava">
+#if (${courseName} == "asp_dotnet")
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/dotNet/${courseName}.php"); ?>
+#elseif (${courseName} == "web_app_with_java")
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/java/${courseName}.php"); ?>
+#elseif (${courseName} == "spring")
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/spring/${courseName}.php"); ?>
+#elseif (${courseName} == "hibernate")
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/hibernate/${courseName}.php"); ?>
+#elseif (${courseName} == "standalone_proj_java" || ${courseName} == "web_proj_jsf" || ${courseName} == "web_proj_java")
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/java/${courseName}.php"); ?>
+#elseif (${courseName} == "web_dev_fundamental" || ${courseName} == "web_design")
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/webDesign/${courseName}.php"); ?>
+#else
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/${courseName}/${courseName}.php"); ?>
+#end
+</div>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/intellizone/footer/footer.php"); ?>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<courses>
+	<course name="Hibernate">
+		<topic name="Introduction to Hibernate">
+			<sub-topic>Inserting,updating,deleteing data using Hibernate
+			</sub-topic>
+		</topic>
+		<topic name="Hibernate Association (Table Relationship)">
+			<sub-topic>One-to-One (Annotation)</sub-topic>
+			<sub-topic>One-to-Many (Annotation)</sub-topic>
+			<sub-topic>Many-to-Many (Annotation)</sub-topic>
+			<sub-topic>Many-to-Many : join table + extra column (Annotation)
+			</sub-topic>
+		</topic>
+		<topic name="Hibernate Cascade">
+			<sub-topic>Cascade (save, update, delete and delete-orphan)
+			</sub-topic>
+			<sub-topic>Cascade s in save, update, delete and delete orphan. And
+				the different between delete and delete orphan.</sub-topic>
+			<sub-topic>Different between cascade and inverse</sub-topic>
+		</topic>
+		<topic name="Hibernate Query Language (HQL)">
+			<sub-topic>Hibernate parameter binding s</sub-topic>
+			<sub-topic>Bind the parameter into HQL with "Named parameters" and
+				"Positional parameters" methods.</sub-topic>
+		</topic>
+		<topic name="Hibernate Criteria">
+			<sub-topic>Criteria : basic query, ordering query, restrictions query
+				and paging the result.</sub-topic>
+			<sub-topic>Hibernate Native SQL</sub-topic>
+			<sub-topic>Hibernate Named Query</sub-topic>
+			<sub-topic>Hibernate named query s</sub-topic>
+			<sub-topic>Hibernate Transaction</sub-topic>
+		</topic>
+		<topic name="Inheritance in Hibernate">
+			<sub-topic>Table Per Hierarchy</sub-topic>
+			<sub-topic>Table Per Concrete class</sub-topic>
+			<sub-topic>Table Per Subclass</sub-topic>
+			<sub-topic>
+				Hibernate data filter
+			</sub-topic>
+		</topic>
+		<topic name="Hibernate Performance">
+			<sub-topic>dynamic-insert attribute </sub-topic>
+			<sub-topic>Using dynamic-insert to avoid the include unmodified
+				properties in the SQL INSERT statement.</sub-topic>
+			<sub-topic>dynamic-update attribute </sub-topic>
+			<sub-topic>Using dynamic-insert to avoid the include unmodified
+				properties in the SQL UPDATE statement.</sub-topic>
+			<sub-topic>Hibernate mutable (class and collection)</sub-topic>
+		</topic>
+		<topic name="Hibernate : fetching strategies ">
+			<sub-topic>Hibernate fetching strategies are used to optimize the
+				Hibernate generated select statement, a must learn skill for any
+				Hibernate developers.</sub-topic>
+			<sub-topic>Different between session.get() and session.load()
+			</sub-topic>
+			<sub-topic>Integrate Hibernate with Other Frameworks</sub-topic>
+		</topic>
+	</course>
+</courses>
